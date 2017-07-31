@@ -30,7 +30,7 @@ class ListNotesTableViewController: UITableViewController {
         super.viewDidLoad()
         notes = CoreDataHelper.retrieveNotes()
         
-        print("hi")
+        print("hi- im the notes branch")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
