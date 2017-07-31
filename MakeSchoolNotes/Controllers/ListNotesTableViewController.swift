@@ -29,6 +29,8 @@ class ListNotesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         notes = CoreDataHelper.retrieveNotes()
+        
+        print("hi")
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
