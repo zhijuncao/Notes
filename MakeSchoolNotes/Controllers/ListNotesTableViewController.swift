@@ -50,6 +50,8 @@ class ListNotesTableViewController: UITableViewController {
         // 3
         cell.noteTitleLabel.text = note.title
         
+        cell.contentView
+        
         // 4
         cell.noteModificationTimeLabel.text = note.modificationTime?.convertToString()
         
